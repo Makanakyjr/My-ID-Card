@@ -10,12 +10,12 @@ class Mycard extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        title: Text('My ID Card'),
+        title: const Text('My ID Card'),
         centerTitle: true,
         backgroundColor: Colors.purple,
         elevation: 0.0,
       ),
-      body: Padding(
+      body: const Padding(
         padding: EdgeInsets.fromLTRB(30.0, 30.0, 30.0, 30.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -114,8 +114,8 @@ class Mycard extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Text('click'),
         backgroundColor: Colors.deepPurple,
+        child: const Text('click'),
       ),
     );
   }
